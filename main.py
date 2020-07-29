@@ -62,7 +62,7 @@ while (found == False or currentAN > anRange[1]): ## If the Application Number i
 
 		
 	except:
-		print("Time-out!");
+		print("Time-out!"); ## If it can not connect for some reason or something else is wrong, just stop trying.....
 		driver.quit();
 
 endtime = datetime.now();
